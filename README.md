@@ -23,3 +23,6 @@ FROM Sales.SalesOrderDetail od
 JOIN Production.Product p ON od.ProductID = p.ProductID
 GROUP BY p.Name
 ORDER BY FaturamentoTotal DESC;
+
+
+
